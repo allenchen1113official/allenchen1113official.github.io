@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://allenchen1113official.github.io/en/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://allenchen1113official.github.io/pt-br/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://allenchen1113official.github.io/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://allenchen1113official.github.io/</loc>
+  </url><url>
+    <loc>https://allenchen1113official.github.io/authors/</loc>
+  </url><url>
+    <loc>https://allenchen1113official.github.io/categories/</loc>
+  </url><url>
+    <loc>https://allenchen1113official.github.io/contact/</loc>
+  </url><url>
+    <loc>https://allenchen1113official.github.io/projects/</loc>
+  </url><url>
+    <loc>https://allenchen1113official.github.io/series/</loc>
+  </url><url>
+    <loc>https://allenchen1113official.github.io/tags/</loc>
+  </url>
+</urlset>
