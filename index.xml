@@ -5,7 +5,8 @@
     <link>https://allenchen1113official.github.io/</link>
     <description>Recent content on AllenChen</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language><atom:link href="https://allenchen1113official.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://allenchen1113official.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Allen</title>
       <link>https://allenchen1113official.github.io/about/</link>
@@ -13,6 +14,15 @@
       
       <guid>https://allenchen1113official.github.io/about/</guid>
       <description>Senior and Certified PMP / PMI-ACP Manager, Experienced Software Developer, Hybrid-management-style IT Team Leader(70% Authoritarian and 30% Servant leadership), Intelligent transportation system(ITS) Domain Expert.</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://allenchen1113official.github.io/posts/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/posts/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
     <item>
