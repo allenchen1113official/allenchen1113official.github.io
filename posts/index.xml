@@ -8,7 +8,7 @@
     <language>zh-tw</language>
     <lastBuildDate>Sat, 01 Apr 2023 21:41:35 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About ChatGPT</title>
+      <title>2個月用戶達1億ChatGPT狂潮之10個小秘技</title>
       <link>https://allenchen1113official.github.io/posts/about-chtgpt/</link>
       <pubDate>Sat, 01 Apr 2023 21:41:35 +0800</pubDate>
       
@@ -25,33 +25,6 @@
 熟悉CHATGPT的回答風格：CHATGPT的回答風格有時會顯得有些怪異或機械，這是因為它是基於大量的資料集生成的。如果你能熟悉CHATGPT的風格和用語，就可以更好地理解和使用它。
 表達請求：如果你需要CHATGPT完成一些特定的任務（例如，設定鬧鈴或查詢資料），請使用明確的指令來表達你的請求。
 練習使用：與所有人工智慧技術一樣，你會發現CHATGPT在越來越多的對話中變得更加聰明。因此，持續使用CHATGPT來進行對話並不斷地詢問問題，將有助於改善它的回答能力。</description>
-    </item>
-    
-    <item>
-      <title>my first post</title>
-      <link>https://allenchen1113official.github.io/posts/my-first-post/</link>
-      <pubDate>Mon, 20 Mar 2023 18:38:31 +0800</pubDate>
-      
-      <guid>https://allenchen1113official.github.io/posts/my-first-post/</guid>
-      <description>my first post</description>
-    </item>
-    
-    <item>
-      <title>allen first post</title>
-      <link>https://allenchen1113official.github.io/posts/allen-first-post/</link>
-      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://allenchen1113official.github.io/posts/allen-first-post/</guid>
-      <description>allen first post</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://allenchen1113official.github.io/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://allenchen1113official.github.io/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
   </channel>
