@@ -6,7 +6,17 @@
     <description>Recent content on AllenChen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 01 Apr 2023 21:41:35 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 23:33:52 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>每天5億則推文之twitter-推薦演算法3個秘密</title>
+      <link>https://allenchen1113official.github.io/posts/twitter-reco-algo/</link>
+      <pubDate>Sun, 02 Apr 2023 23:33:52 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/posts/twitter-reco-algo/</guid>
+      <description>Twitter Recommendation Algorithm 於2023/3/31開源 @GitHub
+三個秘密： 1.使用程式語言排行：第1名 Scala 53.8% ，第2名 Java 29.7% 第3名 Starlark 6.3% 2.排名參數(權重值)：按讚(+30)，轉推(+20)，回復(+1) Source from: Aakash Gupta&amp;rsquo;s tweet 3.使用GraphJet，一種圖形處理引擎，維護用戶和推文之間的實時交互Graph。 Source from:Twitter&amp;rsquo;s blog</description>
+    </item>
+    
     <item>
       <title>2個月用戶達1億ChatGPT狂潮之10個小秘技</title>
       <link>https://allenchen1113official.github.io/posts/about-chtgpt/</link>
