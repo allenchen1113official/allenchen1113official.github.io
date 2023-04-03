@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://allenchen1113official.github.io/posts/about-jesse-livermore/</loc>
+    <lastmod>2023-04-03T12:57:03+08:00</lastmod>
+  </url><url>
     <loc>https://allenchen1113official.github.io/authors/allenchen/</loc>
-    <lastmod>2023-04-02T23:33:52+08:00</lastmod>
+    <lastmod>2023-04-03T12:57:03+08:00</lastmod>
   </url><url>
     <loc>https://allenchen1113official.github.io/</loc>
-    <lastmod>2023-04-02T23:33:52+08:00</lastmod>
+    <lastmod>2023-04-03T12:57:03+08:00</lastmod>
   </url><url>
     <loc>https://allenchen1113official.github.io/authors/</loc>
-    <lastmod>2023-04-02T23:33:52+08:00</lastmod>
+    <lastmod>2023-04-03T12:57:03+08:00</lastmod>
+  </url><url>
+    <loc>https://allenchen1113official.github.io/categories/</loc>
+    <lastmod>2023-04-03T12:57:03+08:00</lastmod>
   </url><url>
     <loc>https://allenchen1113official.github.io/posts/</loc>
-    <lastmod>2023-04-02T23:33:52+08:00</lastmod>
-  </url><url>
-    <loc>https://allenchen1113official.github.io/tags/recommendation-algorithm/</loc>
-    <lastmod>2023-04-02T23:33:52+08:00</lastmod>
+    <lastmod>2023-04-03T12:57:03+08:00</lastmod>
   </url><url>
     <loc>https://allenchen1113official.github.io/tags/</loc>
+    <lastmod>2023-04-03T12:57:03+08:00</lastmod>
+  </url><url>
+    <loc>https://allenchen1113official.github.io/tags/%E7%90%86%E8%B2%A1/</loc>
+    <lastmod>2023-04-03T12:57:03+08:00</lastmod>
+  </url><url>
+    <loc>https://allenchen1113official.github.io/categories/%E7%90%86%E8%B2%A1/</loc>
+    <lastmod>2023-04-03T12:57:03+08:00</lastmod>
+  </url><url>
+    <loc>https://allenchen1113official.github.io/tags/recommendation-algorithm/</loc>
     <lastmod>2023-04-02T23:33:52+08:00</lastmod>
   </url><url>
     <loc>https://allenchen1113official.github.io/tags/twitter/</loc>
@@ -27,9 +39,6 @@
     <lastmod>2023-04-02T23:33:52+08:00</lastmod>
   </url><url>
     <loc>https://allenchen1113official.github.io/posts/about-chtgpt/</loc>
-    <lastmod>2023-04-01T21:41:35+08:00</lastmod>
-  </url><url>
-    <loc>https://allenchen1113official.github.io/categories/</loc>
     <lastmod>2023-04-01T21:41:35+08:00</lastmod>
   </url><url>
     <loc>https://allenchen1113official.github.io/tags/chatgpt/</loc>
