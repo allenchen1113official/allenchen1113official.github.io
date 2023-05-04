@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>簡報 on AllenChen</title>
+    <link>https://allenchen1113official.github.io/categories/%E7%B0%A1%E5%A0%B1/</link>
+    <description>Recent content in 簡報 on AllenChen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 04 May 2023 22:16:05 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/categories/%E7%B0%A1%E5%A0%B1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5分鐘演講的簡報架構</title>
+      <link>https://allenchen1113official.github.io/posts/structure-for-5-minute-presentation/</link>
+      <pubDate>Thu, 04 May 2023 22:16:05 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/posts/structure-for-5-minute-presentation/</guid>
+      <description>
+結論先行。 簡報動機。 故事情境。 行動共識。 </description>
+    </item>
+    
+  </channel>
+</rss>
