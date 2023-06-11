@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>問題解決 on AllenChen</title>
-    <link>https://allenchen1113official.github.io/categories/%E5%95%8F%E9%A1%8C%E8%A7%A3%E6%B1%BA/</link>
-    <description>Recent content in 問題解決 on AllenChen</description>
+    <title>問題拆解 on AllenChen</title>
+    <link>https://allenchen1113official.github.io/tags/%E5%95%8F%E9%A1%8C%E6%8B%86%E8%A7%A3/</link>
+    <description>Recent content in 問題拆解 on AllenChen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 11 Jun 2023 15:20:16 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/categories/%E5%95%8F%E9%A1%8C%E8%A7%A3%E6%B1%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 15:20:16 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/tags/%E5%95%8F%E9%A1%8C%E6%8B%86%E8%A7%A3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>以問題拆解進行問題解決3個具體作為</title>
       <link>https://allenchen1113official.github.io/posts/a-rabbit-with-big-blue-eyes-drawing-the-fishbone-diagram-to-solve-the-solution-with-van-gogh-style/</link>
@@ -15,16 +15,6 @@
       <guid>https://allenchen1113official.github.io/posts/a-rabbit-with-big-blue-eyes-drawing-the-fishbone-diagram-to-solve-the-solution-with-van-gogh-style/</guid>
       <description>
 魚骨圖分析： (1) 瞭解問題：明確問題，知道問題出現的時間、頻率，以及影響的範圍等資訊。 (2) 定義問題：將問題定義，確保大家都理解問題的本質。透過問題定義，可以明確問題範圍和解決方向。 (3) 準備魚骨圖：魚骨圖是問題根因分析的重要工具，需要在魚骨圖上準備好問題的各個因素及其相應的分支。 (4) 分析問題：使用魚骨圖分析問題，找出每個因素之間的相互關係，以及對問題產生的影響。 (5) 找出根本原因：在魚骨圖分析過程中，找到問題的根本原因，即問題產生的核心因素。 制定計劃： (1) 確定目標：確認目標，描述需要達到的結果。 (2) 制定解決方案：使用魚骨圖根本原因分析得到的結果，制定解決方案。每個解決方案都應該針對確定的目標進行詳細的說明。 (3) 制定計劃：將解決方案細分為各個步驟，建立起實施計劃的路線圖。 (4) 分工合作：分配每個步驟的責任與工作；確定需要的資源和時間範圍。 實施方案： (1) 實施計劃：按照計劃逐步執行，遵循先簡單後複雜，先易行後困難的原則。 (2) 持續追蹤：持續監控計劃的執行情況，以確保在達成預期目標的程序中做出必要的調整。 (3) 進行再次評估：隨著解決方案的實施，計劃中可能需要進行修改或調整。進行再次評估以確保所有問題都已經解決。 </description>
-    </item>
-    
-    <item>
-      <title>以問題定義進行問題解決3個具體作為</title>
-      <link>https://allenchen1113official.github.io/posts/3-specific-actions-to-solve-the-problem-by-using-problem-definition/</link>
-      <pubDate>Sat, 10 Jun 2023 21:53:28 +0800</pubDate>
-      
-      <guid>https://allenchen1113official.github.io/posts/3-specific-actions-to-solve-the-problem-by-using-problem-definition/</guid>
-      <description>
-確定問題範圍：在進行問題解決前，必須先釐清問題的範圍，以免浪費時間和資源。例如，如果一個公司收到顧客投訴，那麼需要確定投訴的型別和原因，進而決定解決方案。 整理資料和分析：為了找到問題的根本原因，需要收集和整理相關資料。這些資料可以來自不同的渠道，例如顧客意見、分析資料和市場研究。然後，需要對這些資料進行分析，以明確問題的關鍵因素。 制定解決方案：一旦確定了問題範圍並分析了相關資料，就需要制定解決方案。這可能涉及到設計新的流程或制定改進計劃，以達到解決問題的目的。在制定解決方案時，需要考慮到各種情況，例如預算、時間限制和人力資源。 </description>
     </item>
     
   </channel>
