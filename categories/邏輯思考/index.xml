@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>麥肯錫 on AllenChen</title>
-    <link>https://allenchen1113official.github.io/tags/%E9%BA%A5%E8%82%AF%E9%8C%AB/</link>
-    <description>Recent content in 麥肯錫 on AllenChen</description>
+    <title>邏輯思考 on AllenChen</title>
+    <link>https://allenchen1113official.github.io/categories/%E9%82%8F%E8%BC%AF%E6%80%9D%E8%80%83/</link>
+    <description>Recent content in 邏輯思考 on AllenChen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 17 Jun 2023 17:01:45 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/tags/%E9%BA%A5%E8%82%AF%E9%8C%AB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jun 2023 17:01:45 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/categories/%E9%82%8F%E8%BC%AF%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>麥肯錫7種邏輯思考方法</title>
       <link>https://allenchen1113official.github.io/posts/7-logical-thinking-methods-of-mckinsey/</link>
@@ -15,16 +15,6 @@
       <guid>https://allenchen1113official.github.io/posts/7-logical-thinking-methods-of-mckinsey/</guid>
       <description>
 歸納法：一種邏輯思考的方法，透過從具體的觀察或例項中歸納出一般性的結論。它相對於演繹法，是由特殊到一般的推理過程。 演繹法：一種邏輯思考的方法，透過從一般性的原理或前提，推匯出具體的結論。它基於已存在的知識和理論，透過運用邏輯推理和推斷，將已知的事實應用於具體情境中，以得出新的結論。 金字塔結構（Pyramid Principle）：這種結構化的思考方法可以幫助我們將複雜的概念或訊息組織成層次清晰的結構，從而更容易理解和傳達。 MECE（Mutually Exclusive, Collectively Exhaustive）：MECE是一種確保框架或思考方法的相互獨立和全面完整性的原則。當使用MECE時，我們努力確保沒有重疊或遺漏的想法，以達到整體邏輯性。 等價交換法（Equivalence Exchange）：這種思考方式透過尋找具有相似性質或特徵的事物來進行比較和分析。透過尋找關聯性，我們可以更深入地理解和解決問題。 六頂思考帽（Six Thinking Hats）：這是一種用於打破既定思考模式並促進創新思維的方法。每個思考帽代表著一種特定的思考角度或表達方式，從而激發不同的思考模式。 劇本分析（Scenario Analysis）：這種分析方法常用於預測或準備應對可能發生的事件或情境。透過預先制定對策並進行劇本分析，我們可以提前應對不順利的情況，降低風險。 </description>
-    </item>
-    
-    <item>
-      <title>麥肯錫問題解決7步驟</title>
-      <link>https://allenchen1113official.github.io/posts/7-steps-for-solving-problem-of-mckinsey/</link>
-      <pubDate>Fri, 09 Jun 2023 20:58:44 +0800</pubDate>
-      
-      <guid>https://allenchen1113official.github.io/posts/7-steps-for-solving-problem-of-mckinsey/</guid>
-      <description>
-定義問題 拆解問題 排定優先順序 制定計畫 關鍵分析 統整結果 簡報成果 </description>
     </item>
     
   </channel>
