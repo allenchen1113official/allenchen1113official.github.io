@@ -6,7 +6,17 @@
     <description>Recent content in Posts on AllenChen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 17 Jun 2023 17:01:45 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jun 2023 20:44:55 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用歸納法進行邏輯思考3個具體作為</title>
+      <link>https://allenchen1113official.github.io/posts/3-specific-actions-for-logical-thinking-using-induction/</link>
+      <pubDate>Sun, 18 Jun 2023 20:44:55 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/posts/3-specific-actions-for-logical-thinking-using-induction/</guid>
+      <description>
+觀察法：觀察法是最常見的歸納法。它基於對一系列觀察結果的分析和歸納，以得出一般性的結論。例如，觀察一個醫療研究中的患者，並得出結論說某種治療方法對大多數患者有效。 樣本法：樣本法是透過對一小部分樣本進行觀察和歸納，然後推斷整個族群的情況。例如，從符合某個特定條件的人群中選取樣本，觀察他們的行為和特徵，然後推斷整個人群可能具有相似的行為和特徵。 實驗法：實驗法是透過設計和執行實驗，觀察和測量結果，以得出一般性的結論。例如，進行一個控制變數的實驗，以研究不同營養攝入對人體健康的影響，然後根據實驗結果來歸納出營養攝入和健康之間的關係。 </description>
+    </item>
+    
     <item>
       <title>麥肯錫7種邏輯思考方法</title>
       <link>https://allenchen1113official.github.io/posts/7-logical-thinking-methods-of-mckinsey/</link>
