@@ -6,7 +6,17 @@
     <description>Recent content on AllenChen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 18 Jun 2023 20:44:55 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/authors/allenchen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jun 2023 22:30:33 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/authors/allenchen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用演繹法進行邏輯思考3個具體作為</title>
+      <link>https://allenchen1113official.github.io/posts/3-specific-actions-for-logical-thinking-using-deduction/</link>
+      <pubDate>Mon, 19 Jun 2023 22:30:33 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/posts/3-specific-actions-for-logical-thinking-using-deduction/</guid>
+      <description>
+先提出前提(T1)：例如&amp;quot;所有A都是B&amp;quot;。 根據前提(T1)提出推論(T2)：例如&amp;quot;某個物件是A&amp;quot;，則可以推斷該物件也是B。 檢驗推論(T2)是否符合邏輯：確保推論(T2)符合前提(T1)的結構，並且不含有其他違反邏輯的假設或推斷。 </description>
+    </item>
+    
     <item>
       <title>使用歸納法進行邏輯思考3個具體作為</title>
       <link>https://allenchen1113official.github.io/posts/3-specific-actions-for-logical-thinking-using-induction/</link>
