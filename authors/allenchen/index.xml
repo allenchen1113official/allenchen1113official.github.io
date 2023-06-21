@@ -6,7 +6,18 @@
     <description>Recent content on AllenChen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 20 Jun 2023 18:50:05 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/authors/allenchen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jun 2023 23:54:37 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/authors/allenchen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>以MECE進行邏輯思考6個具體流程</title>
+      <link>https://allenchen1113official.github.io/posts/6-specific-processes-of-logical-thinking-with-mece/</link>
+      <pubDate>Wed, 21 Jun 2023 23:54:37 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/posts/6-specific-processes-of-logical-thinking-with-mece/</guid>
+      <description>
+MECE是一種邏輯思考的工具，代表互相排斥、完全積累（Mutually Exclusive, Collectively Exhaustive）。使用MECE原則可以確保思考的完整性和邏輯性。 以下是6種具體流程：
+定義問題或主題：明確地定義我們要思考的問題或主題，確定思考的範圍和目標。 列舉互相排斥的分類：根據問題或主題，列舉出一系列互相排斥的分類或維度。這些分類應該是相互獨立且互斥的，每個元素只能歸類於其中一個分類。 確認積累性：確認所列舉的分類或維度能夠完整地涵蓋主題的所有方面，即每個元素都能歸類於至少一個分類。 細化分類：對於每個分類，進一步細分其子分類。這些子分類也應符合互斥性和積累性的原則。 進行分析和探索：使用適當的工具和方法對每個分類或子分類進行分析和探索。這可以包括資料收集、統計分析、專家訪談等方法。 綜合結果：最後，將每個分類或子分類的結果進行綜合和整合，得出全面和有邏輯性的結論。 </description>
+    </item>
+    
     <item>
       <title>以金字塔結構進行邏輯思考的3種具體作為</title>
       <link>https://allenchen1113official.github.io/posts/3-specific-actions-for-logical-thinking-using-pyramid-principle/</link>
