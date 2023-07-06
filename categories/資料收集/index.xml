@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>理財機器人 on AllenChen</title>
-    <link>https://allenchen1113official.github.io/categories/%E7%90%86%E8%B2%A1%E6%A9%9F%E5%99%A8%E4%BA%BA/</link>
-    <description>Recent content in 理財機器人 on AllenChen</description>
+    <title>資料收集 on AllenChen</title>
+    <link>https://allenchen1113official.github.io/categories/%E8%B3%87%E6%96%99%E6%94%B6%E9%9B%86/</link>
+    <description>Recent content in 資料收集 on AllenChen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 06 Jul 2023 20:52:04 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/categories/%E7%90%86%E8%B2%A1%E6%A9%9F%E5%99%A8%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jul 2023 20:52:04 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/categories/%E8%B3%87%E6%96%99%E6%94%B6%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用Python建立理財機器人方法1-資料收集</title>
       <link>https://allenchen1113official.github.io/posts/create-a-financial-robot-with-python-method-1-using-data-collection/</link>
@@ -16,17 +16,6 @@
       <description>
 建立理財機器人的第一步是收集相關的金融市場和資產價格的歷史資料。以下是利用Python進行資料收集的方法：
 使用金融資料API：許多金融資料供應商提供API，可以用來獲取即時和歷史的金融市場資料。你可以使用Python的HTTP庫（例如requests）來向API傳送請求，然後解析返回的資料。常見的金融資料API包括Alpha Vantage、Yahoo Finance和Quandl。 使用網路爬蟲：如果沒有可用的API，你可以使用Python的網路爬蟲技術來抓取網站上的金融資料。你可以使用Python的Requests和BeautifulSoup套件來向網站傳送請求並解析HTML內容。請注意，當使用網路爬蟲時，應該遵守網站的使用條款和隱私政策。 使用開源資料集：還有許多開源的金融資料集可以在網路上找到。你可以透過搜尋和下載這些資料集，然後將其匯入到Python中進行進一步的分析和處理。一些常見的金融資料集包括Quandl提供的資料集、Yahoo Finance提供的歷史價格以及美國證券交易委員會（SEC）提供的財務報表。 資料庫儲存：收集到的資料可以儲存到資料庫中，以便日後查詢和使用。你可以使用Python的SQL套件（例如SQLite或MySQL）來建立和管理資料庫，並將資料插入到相應的表中。 請注意，當收集資料時，應該確保資料的可靠性和準確性。同時，要注意資料的頻率和範圍，以確保對機器學習和回測的需求能夠滿足。 </description>
-    </item>
-    
-    <item>
-      <title>利用Python建立理財機器人方法</title>
-      <link>https://allenchen1113official.github.io/posts/create-a-financial-robot-with-python-/</link>
-      <pubDate>Wed, 05 Jul 2023 20:37:21 +0800</pubDate>
-      
-      <guid>https://allenchen1113official.github.io/posts/create-a-financial-robot-with-python-/</guid>
-      <description>
-建立理財機器人可以利用Python以及相關的金融分析和機器學習套件。以下是建立理財機器人的一般方法：
-資料收集：首先，你需要收集相關的金融市場和資產價格的歷史資料。可以使用金融資料API或網路爬蟲技術來獲取這些資料。常見的Python套件包括Pandas和Numpy。 資料清理和預處理：對收集到的資料進行清理、去除缺失值和異常值，並設計特徵變數（例如均線、波動率等）來幫助機器學習模型進行預測和決策。 模型建立：利用Python中的機器學習套件（如Scikit-learn或TensorFlow）建立相應的預測模型，例如回歸模型或時序預測模型。可以根據需求選擇合適的模型，並使用交叉驗證等技術來評估模型的效能。 策略構建和回測：根據模型預測的結果，建立理財策略並進行回測。回測是指使用歷史資料來模擬和評估策略的表現。可以使用Python中的Backtrader或Zipline等套件進行回測。 下單和執行：根據策略生成的交易訊號，在金融交易平臺上下單執行交易。可以使用相應的金融交易API或套件與交易平臺進行互動。 </description>
     </item>
     
   </channel>
