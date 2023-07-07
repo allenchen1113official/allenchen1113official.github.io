@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  利用Python建立理財機器人方法2-資料清理和預處理 · AllenChen
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Allen Chen">
+<meta name="description" content="利用Python建立理財機器人方法2-資料清理和預處理">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="利用Python建立理財機器人方法2-資料清理和預處理"/>
+<meta name="twitter:description" content="利用Python建立理財機器人方法2-資料清理和預處理"/>
+
+<meta property="og:title" content="利用Python建立理財機器人方法2-資料清理和預處理" />
+<meta property="og:description" content="利用Python建立理財機器人方法2-資料清理和預處理" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://allenchen1113official.github.io/posts/create-a-financial-robot-with-python-method-2-using-data-cleaning-and-preprocessing/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-07-07T23:25:58+08:00" />
+<meta property="article:modified_time" content="2023-07-07T23:25:58+08:00" />
+
+
+
+
+<link rel="canonical" href="https://allenchen1113official.github.io/posts/create-a-financial-robot-with-python-method-2-using-data-cleaning-and-preprocessing/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.0669b62fc2c181a12a4ba10be9984e385c9a5e83dc7cb7ae3759ad0b98d7e8b2.css" integrity="sha256-Bmm2L8LBgaEqS6EL6ZhOOFyaXoPcfLeuN1mtC5jX6LI=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.f6534b0b446b75d9b6ad77a97d43ede2ddaeff1b6e2361fb7198d6f8fcb7f83f.css" integrity="sha256-9lNLC0Rrddm2rXepfUPt4t2u/xtuI2H7cZjW&#43;Py3&#43;D8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.111.3">
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-dark">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      AllenChen
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://linktr.ee/allenchen1113.official">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://allenchen1113official.github.io/posts/create-a-financial-robot-with-python-method-2-using-data-cleaning-and-preprocessing/">
+              利用Python建立理財機器人方法2-資料清理和預處理
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-07-07T23:25:58&#43;08:00">
+                July 7, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              One-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa fa-user" aria-hidden="true"></i>
+    <a href="/authors/allenchen/">AllenChen</a></div>
+
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/%E7%90%86%E8%B2%A1%E6%A9%9F%E5%99%A8%E4%BA%BA/">理財機器人</a>
+      <span class="separator">•</span>
+    <a href="/categories/python/">Python</a>
+      <span class="separator">•</span>
+    <a href="/categories/%E7%90%86%E8%B2%A1/">理財</a>
+      <span class="separator">•</span>
+    <a href="/categories/%E8%B3%87%E6%96%99%E6%B8%85%E7%90%86/">資料清理</a>
+      <span class="separator">•</span>
+    <a href="/categories/%E8%B3%87%E6%96%99%E9%A0%90%E8%99%95%E7%90%86/">資料預處理</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/%E7%90%86%E8%B2%A1%E6%A9%9F%E5%99%A8%E4%BA%BA/">理財機器人</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/python/">Python</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E8%B3%87%E6%96%99%E6%B8%85%E7%90%86/">資料清理</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E8%B3%87%E6%96%99%E9%A0%90%E8%99%95%E7%90%86/">資料預處理</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p><img src="/images/post/A-rabbit-with-big-blue-eyes-using-comouter-for-data-cleaning-and-preprocessing-to-create-a-python-robot-with-Van-Gogh-style.jpeg" alt="image"></p>
+<p>在建立理財機器人的過程中，資料清理和預處理是非常重要的步驟，它可以幫助我們處理並分析資料，提供更準確的結果和預測。以下是利用Python進行資料清理和預處理的一般方法：</p>
+<ol>
+<li>載入資料：使用Python的相關庫（如pandas）將要處理的資料載入到程式中。</li>
+<li>缺失值處理：檢查資料中是否存在缺失值，如果有，可以採取以下方法處理：
+<ul>
+<li>刪除缺失值所在的行/列：如果缺失值數量較少且對整體資料影響不大，可以考慮刪除缺失值所在的行或列。</li>
+<li>填充缺失值：根據資料的特點和分析需求，可以使用均值、中位數、眾數等方法填充缺失值。</li>
+</ul>
+</li>
+<li>資料轉換：根據分析需求和資料特點，進行資料轉換，例如：
+<ul>
+<li>字串轉換為數值：將一些表示數值的字串轉換為數值型資料，便於後續資料分析和建模。</li>
+<li>日期時間轉換：將資料中的日期時間欄位轉換為日期時間物件，便於進行時間序列分析。</li>
+</ul>
+</li>
+<li>資料標準化：對資料進行標準化處理，使得資料在同一尺度上，有助於提高模型的準確性和效能。常用的標準化方法有：
+<ul>
+<li>Z-score：將資料按照均值與標準差進行標準化，使得資料的均值為0，標準差為1。</li>
+<li>最小-最大標準化：將資料按照最小值和最大值進行線性轉換，使得資料的範圍在[0, 1]之間。</li>
+</ul>
+</li>
+<li>資料視覺化：使用資料視覺化的工具（如matplotlib、seaborn）對清理和預處理後的資料進行視覺化分析，以便更好地理解資料。
+這些方法只是一些常見的資料清理和預處理方法，根據不同的資料特點和分析需求，可能還需要使用其他方法進行處理。</li>
+</ol>
+<!-- raw HTML omitted -->
+
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "allenchen1113official" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2023
+     Allen Chen 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
