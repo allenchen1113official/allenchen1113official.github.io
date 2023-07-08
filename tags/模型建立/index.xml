@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>模型建立 on AllenChen</title>
+    <link>https://allenchen1113official.github.io/tags/%E6%A8%A1%E5%9E%8B%E5%BB%BA%E7%AB%8B/</link>
+    <description>Recent content in 模型建立 on AllenChen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 08 Jul 2023 23:49:07 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/tags/%E6%A8%A1%E5%9E%8B%E5%BB%BA%E7%AB%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>利用Python建立理財機器人方法3-模型建立</title>
+      <link>https://allenchen1113official.github.io/posts/create-a-financial-robot-with-python-method-2-building-model/</link>
+      <pubDate>Sat, 08 Jul 2023 23:49:07 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/posts/create-a-financial-robot-with-python-method-2-building-model/</guid>
+      <description>
+在建立理財機器人的過程中，模型建立是一個關鍵步驟。以下是利用Python建立理財機器人的方法：
+資料收集：收集金融市場和相關資產的資料，包括歷史價格、交易量和其他指標。 資料預處理：對收集到的資料進行預處理，包括資料清洗、缺失值處理、資料轉換等。 特徵工程：根據收集到的資料，提取相應的特徵。這可以是技術指標、基本面指標或其他相關指標。 標籤生成：根據預定的投資策略和目標，生成對應的標籤。例如，如果目標是預測股票漲跌，則可以根據漲跌幅度生成二進位制標籤。 模型選擇：根據預測目標和資料特性，選擇合適的機器學習模型。常見的模型包括線性回歸、支援向量機、決策樹等。 資料劃分：將資料集劃分為訓練集和測試集，通常使用交叉驗證的方法來選擇最優模型。 模型訓練：使用訓練集的資料對模型進行訓練。這包括適應模型引數和最佳化模型的過程。 模型評估：使用測試集的資料對模型進行評估。評估指標包括準確率、精確率、召回率等。 引數最佳化：根據模型評估的結果，調整模型的引數以提升模型效能。 模型驗證：將最終模型應用於實際資料，進行模型驗證和執行。 需要注意的是，建立理財機器人是一個複雜的過程，需要結合金融知識和機器學習技術。建議在使用模型建立之前，先對金融市場和投資策略有一定的瞭解。 </description>
+    </item>
+    
+  </channel>
+</rss>
