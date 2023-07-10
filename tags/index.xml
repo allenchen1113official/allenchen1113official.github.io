@@ -6,22 +6,40 @@
     <description>Recent content in Tags on AllenChen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 09 Jul 2023 18:22:22 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2023 23:02:56 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python</title>
       <link>https://allenchen1113official.github.io/tags/python/</link>
-      <pubDate>Sun, 09 Jul 2023 18:22:22 +0800</pubDate>
+      <pubDate>Mon, 10 Jul 2023 23:02:56 +0800</pubDate>
       
       <guid>https://allenchen1113official.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>交易下單和執行</title>
+      <link>https://allenchen1113official.github.io/tags/%E4%BA%A4%E6%98%93%E4%B8%8B%E5%96%AE%E5%92%8C%E5%9F%B7%E8%A1%8C/</link>
+      <pubDate>Mon, 10 Jul 2023 23:02:56 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/tags/%E4%BA%A4%E6%98%93%E4%B8%8B%E5%96%AE%E5%92%8C%E5%9F%B7%E8%A1%8C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>理財機器人</title>
       <link>https://allenchen1113official.github.io/tags/%E7%90%86%E8%B2%A1%E6%A9%9F%E5%99%A8%E4%BA%BA/</link>
-      <pubDate>Sun, 09 Jul 2023 18:22:22 +0800</pubDate>
+      <pubDate>Mon, 10 Jul 2023 23:02:56 +0800</pubDate>
       
       <guid>https://allenchen1113official.github.io/tags/%E7%90%86%E8%B2%A1%E6%A9%9F%E5%99%A8%E4%BA%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>資料清理</title>
+      <link>https://allenchen1113official.github.io/tags/%E8%B3%87%E6%96%99%E6%B8%85%E7%90%86/</link>
+      <pubDate>Mon, 10 Jul 2023 23:02:56 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/tags/%E8%B3%87%E6%96%99%E6%B8%85%E7%90%86/</guid>
       <description></description>
     </item>
     
@@ -31,15 +49,6 @@
       <pubDate>Sun, 09 Jul 2023 18:22:22 +0800</pubDate>
       
       <guid>https://allenchen1113official.github.io/tags/%E7%AD%96%E7%95%A5%E6%A7%8B%E5%BB%BA%E5%92%8C%E5%9B%9E%E6%B8%AC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>資料清理</title>
-      <link>https://allenchen1113official.github.io/tags/%E8%B3%87%E6%96%99%E6%B8%85%E7%90%86/</link>
-      <pubDate>Sun, 09 Jul 2023 18:22:22 +0800</pubDate>
-      
-      <guid>https://allenchen1113official.github.io/tags/%E8%B3%87%E6%96%99%E6%B8%85%E7%90%86/</guid>
       <description></description>
     </item>
     
