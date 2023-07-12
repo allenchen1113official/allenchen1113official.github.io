@@ -6,7 +6,19 @@
     <description>Recent content on AllenChen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 11 Jul 2023 22:20:19 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2023 23:48:02 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>程序員誓言(The Programmer Oath)鮑勃·馬丁大叔（Bob Martin）</title>
+      <link>https://allenchen1113official.github.io/posts/the-programmer-oath-by-bob-martin/</link>
+      <pubDate>Wed, 12 Jul 2023 23:48:02 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/posts/the-programmer-oath-by-bob-martin/</guid>
+      <description>I will not produce harmful code.
+The code that I produce will always be my best work. I will not knowingly allow code that is defective either in behavior or structure to accumulate.
+I will produce, with each release, a quick, sure, and repeatable proof that every element of the code works as it should.
+I will make frequent, small, releases so that I do not impede the progress of others.</description>
+    </item>
+    
     <item>
       <title>以SPF去建立自信</title>
       <link>https://allenchen1113official.github.io/posts/spf-to-build-your-confidence/</link>

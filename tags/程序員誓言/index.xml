@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>程序員誓言 on AllenChen</title>
+    <link>https://allenchen1113official.github.io/tags/%E7%A8%8B%E5%BA%8F%E5%93%A1%E8%AA%93%E8%A8%80/</link>
+    <description>Recent content in 程序員誓言 on AllenChen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 12 Jul 2023 23:48:02 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/tags/%E7%A8%8B%E5%BA%8F%E5%93%A1%E8%AA%93%E8%A8%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>程序員誓言(The Programmer Oath)鮑勃·馬丁大叔（Bob Martin）</title>
+      <link>https://allenchen1113official.github.io/posts/the-programmer-oath-by-bob-martin/</link>
+      <pubDate>Wed, 12 Jul 2023 23:48:02 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/posts/the-programmer-oath-by-bob-martin/</guid>
+      <description>I will not produce harmful code.
+The code that I produce will always be my best work. I will not knowingly allow code that is defective either in behavior or structure to accumulate.
+I will produce, with each release, a quick, sure, and repeatable proof that every element of the code works as it should.
+I will make frequent, small, releases so that I do not impede the progress of others.</description>
+    </item>
+    
+  </channel>
+</rss>
