@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  輿情分析第1個具體步驟：資料收集 · AllenChen
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Allen Chen">
+<meta name="description" content="輿情分析第1個具體步驟：資料收集">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="輿情分析第1個具體步驟：資料收集"/>
+<meta name="twitter:description" content="輿情分析第1個具體步驟：資料收集"/>
+
+<meta property="og:title" content="輿情分析第1個具體步驟：資料收集" />
+<meta property="og:description" content="輿情分析第1個具體步驟：資料收集" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://allenchen1113official.github.io/posts/1st-step-for-public-opinion-analysis-data-collection/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-07-14T11:48:11+08:00" />
+<meta property="article:modified_time" content="2023-07-14T11:48:11+08:00" />
+
+
+
+
+<link rel="canonical" href="https://allenchen1113official.github.io/posts/1st-step-for-public-opinion-analysis-data-collection/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.0669b62fc2c181a12a4ba10be9984e385c9a5e83dc7cb7ae3759ad0b98d7e8b2.css" integrity="sha256-Bmm2L8LBgaEqS6EL6ZhOOFyaXoPcfLeuN1mtC5jX6LI=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.f6534b0b446b75d9b6ad77a97d43ede2ddaeff1b6e2361fb7198d6f8fcb7f83f.css" integrity="sha256-9lNLC0Rrddm2rXepfUPt4t2u/xtuI2H7cZjW&#43;Py3&#43;D8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.111.3">
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-dark">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      AllenChen
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://linktr.ee/allenchen1113.official">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://allenchen1113official.github.io/posts/1st-step-for-public-opinion-analysis-data-collection/">
+              輿情分析第1個具體步驟：資料收集
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-07-14T11:48:11&#43;08:00">
+                July 14, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              One-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa fa-user" aria-hidden="true"></i>
+    <a href="/authors/allenchen/">AllenChen</a></div>
+
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/%E8%BC%BF%E6%83%85%E5%88%86%E6%9E%90/">輿情分析</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/%E8%BC%BF%E6%83%85%E5%88%86%E6%9E%90/">輿情分析</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p><img src="/images/post/A-rabbit-with-big-blue-eyes-using-a-computer-to-collect-data-with-Van-Gogh-style.jpeg" alt="image"></p>
+<p>輿情分析的第一個具體步驟是資料收集，其中包括PTT、Dcard、Facebook、Twitter和Google評論的內容。這些平臺和網站可以提供不同角度和來源的訊息，幫助您瞭解公眾對於特定主題的看法和評論。</p>
+<ol>
+<li>PTT：PTT是臺灣最大的討論區，具有豐富的社群和討論內容。您可以瀏覽相關的PTT看板，收集和整理與您關注主題相關的帖子和回覆。</li>
+<li>Dcard：Dcard是一個大學生社群平臺，使用者可以匿名分享各種話題和討論。您可以瀏覽相關的Dcard版面，收集和整理與您關注主題相關的帖子和回覆。</li>
+<li>Facebook：在Facebook上，您可以搜尋和關注與您關注主題相關的公共專頁、群組和使用者。收集和整理相關的貼文、評論和分享。</li>
+<li>Twitter：在Twitter上，您可以搜尋和關注與您關注主題相關的使用者、主題標籤或關鍵詞。收集和整理相關的推文、回覆和轉發。</li>
+<li>Google評論：您可以搜尋特定的事物、地方或產品在Google上的評論和評價。這些評論可以提供使用者對於特定主題的觀點和反饋。
+蒐集到的資料可以用於後續的輿情分析，幫助您瞭解公眾的觀點、情感和討論重點。請確保在資料收集過程中遵守相關的法律和道德規範。</li>
+</ol>
+<!-- raw HTML omitted -->
+
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "allenchen1113official" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2023
+     Allen Chen 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
