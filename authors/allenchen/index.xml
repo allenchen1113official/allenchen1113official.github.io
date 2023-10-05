@@ -6,16 +6,26 @@
     <description>Recent content on AllenChen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 05 Oct 2023 09:30:41 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/authors/allenchen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Oct 2023 02:27:57 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/authors/allenchen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第3個辯論技巧-提問</title>
+      <link>https://allenchen1113official.github.io/posts/3rd-debating-skills-asking/</link>
+      <pubDate>Fri, 06 Oct 2023 02:27:57 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/posts/3rd-debating-skills-asking/</guid>
+      <description>在辯論中使用提問是一個重要的技巧，可以幫助你引出對方的觀點、理論和論據，並讓你有機會提出有針對性的反駁。
+以下是一些提問技巧，可以在辯論中使用：
+開放性問題：這種問題需要對方提供具體的資訊和解釋，以支援他們的觀點。例如：「你能解釋一下你的論點背後的科學原理嗎？」 對比問題：這種問題用於比較對方的觀點和你的觀點之間的差異或矛盾之處。例如：「你說X，但是根據我所瞭解的研究，Y和你的觀點相矛盾。你如何解釋這個矛盾？」 擴充套件問題：這種問題用於讓對方進一步解釋或深入思考他們的觀點。例如：「你的觀點在現實生活中是否有任何實際應用？」 假設問題：這種問題用於探討對方的觀點在特定條件下的可行性。例如：「如果我們遇到特定的情況，你的觀點仍然適用嗎？」 核心問題：這種問題用於探討對方觀點的核心問題和基本前提。例如：「你的論點的核心假設是什麼？」 使用這些提問技巧可以幫助你深入瞭解對方的觀點，同時也能引出更有力的論據和論點來支援你自己的立場。記得保持尊重和冷靜，以促進一個有益的辯論。</description>
+    </item>
+    
     <item>
       <title>第2個辯論技巧-聽取對方觀點</title>
       <link>https://allenchen1113official.github.io/posts/2nd-debating-skills-listen-to-the-other-person-point-of-view/</link>
       <pubDate>Thu, 05 Oct 2023 09:30:41 +0800</pubDate>
       
       <guid>https://allenchen1113official.github.io/posts/2nd-debating-skills-listen-to-the-other-person-point-of-view/</guid>
-      <description>
-第2個辯論技巧是「聽取對方觀點」。在辯論中，不只是要表達自己的觀點，也要尊重並聆聽對方的觀點。這是建立對話和理解的基礎。以下是一些建議，幫助你聽取對方觀點：
-專注聆聽：當對方在表達他們的觀點時，全神貫注地聆聽他們的話語。不要在心裡提前做出評論或反駁，而是給予他們充分的機會表達自己。 不要打斷：切記不要打斷對方的發言。等到對方把自己的觀點完整表達完畢後，再展開對話。 提問釐清：如果你在聆聽中有疑問或不理解對方的觀點，可以提問以釐清對方的想法。這有助於你更好地理解對方的觀點，並對其作出回應。 避免攻擊性言語：在對方表達觀點時，避免使用攻擊性的言語或對對方進行批評。保持尊重和禮貌，進行建設性的對話。 總結對方觀點：在對話結束前，可以總結對方的觀點，以確保你正確理解他們的立場。 透過聽取對方觀點，我們能夠更全面地瞭解議題，並找到更有效的辯論策略。記住，辯論不僅僅是為了爭論，而是為了達到理解和解決問題的目的。 </description>
+      <description>第2個辯論技巧是「聽取對方觀點」。在辯論中，不只是要表達自己的觀點，也要尊重並聆聽對方的觀點。這是建立對話和理解的基礎。以下是一些建議，幫助你聽取對方觀點：
+專注聆聽：當對方在表達他們的觀點時，全神貫注地聆聽他們的話語。不要在心裡提前做出評論或反駁，而是給予他們充分的機會表達自己。 不要打斷：切記不要打斷對方的發言。等到對方把自己的觀點完整表達完畢後，再展開對話。 提問釐清：如果你在聆聽中有疑問或不理解對方的觀點，可以提問以釐清對方的想法。這有助於你更好地理解對方的觀點，並對其作出回應。 避免攻擊性言語：在對方表達觀點時，避免使用攻擊性的言語或對對方進行批評。保持尊重和禮貌，進行建設性的對話。 總結對方觀點：在對話結束前，可以總結對方的觀點，以確保你正確理解他們的立場。 透過聽取對方觀點，我們能夠更全面地瞭解議題，並找到更有效的辯論策略。記住，辯論不僅僅是為了爭論，而是為了達到理解和解決問題的目的。 使用 python 以Scrapy庫為範例，進行抓取 reddit stock板及ptt stock板。</description>
     </item>
     
     <item>
