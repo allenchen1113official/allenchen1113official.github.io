@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UX on AllenChen</title>
+    <link>https://allenchen1113official.github.io/tags/ux/</link>
+    <description>Recent content in UX on AllenChen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 28 Oct 2023 21:21:24 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/tags/ux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>英國政府網站設計原則</title>
+      <link>https://allenchen1113official.github.io/posts/uk-government-website-design-principles/</link>
+      <pubDate>Sat, 28 Oct 2023 21:21:24 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/posts/uk-government-website-design-principles/</guid>
+      <description>Start with user needs Do less Design with data Do the hard work to make it simple Iterate. Then iterate again This is for everyone Understand context Build digital services, not websites Be consistent, not uniform Make things open: it makes things better 1.從使用者需求出發 2. 少做 3. 用數據設計 4. 努力讓事情變得簡單 5. 迭代。 然後再次迭代 6. 這適合所有人 7.了解背景 8. 建構數位服務，而不是網站 9. 保持一致，而不是統一 10. 讓事情變得開放：它會讓事情變得更好</description>
+    </item>
+    
+  </channel>
+</rss>
