@@ -6,13 +6,22 @@
     <description>Recent content in Tags on AllenChen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 05 Nov 2023 16:34:50 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Nov 2023 18:42:04 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LLM</title>
       <link>https://allenchen1113official.github.io/tags/llm/</link>
-      <pubDate>Sun, 05 Nov 2023 16:34:50 +0800</pubDate>
+      <pubDate>Mon, 06 Nov 2023 18:42:04 +0800</pubDate>
       
       <guid>https://allenchen1113official.github.io/tags/llm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>資料收集</title>
+      <link>https://allenchen1113official.github.io/tags/%E8%B3%87%E6%96%99%E6%94%B6%E9%9B%86/</link>
+      <pubDate>Mon, 06 Nov 2023 18:42:04 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/tags/%E8%B3%87%E6%96%99%E6%94%B6%E9%9B%86/</guid>
       <description></description>
     </item>
     
@@ -1111,15 +1120,6 @@
       <pubDate>Sat, 15 Jul 2023 18:08:08 +0800</pubDate>
       
       <guid>https://allenchen1113official.github.io/tags/%E8%B3%87%E6%96%99%E6%B8%85%E6%B4%97/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>資料收集</title>
-      <link>https://allenchen1113official.github.io/tags/%E8%B3%87%E6%96%99%E6%94%B6%E9%9B%86/</link>
-      <pubDate>Fri, 14 Jul 2023 11:48:11 +0800</pubDate>
-      
-      <guid>https://allenchen1113official.github.io/tags/%E8%B3%87%E6%96%99%E6%94%B6%E9%9B%86/</guid>
       <description></description>
     </item>
     

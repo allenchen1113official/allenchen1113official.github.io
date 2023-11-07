@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  發展大型語言模型(LLM)關鍵步驟-資料收集 · AllenChen
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Allen Chen">
+<meta name="description" content="發展大型語言模型(LLM)關鍵步驟-資料收集">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="發展大型語言模型(LLM)關鍵步驟-資料收集"/>
+<meta name="twitter:description" content="發展大型語言模型(LLM)關鍵步驟-資料收集"/>
+
+<meta property="og:title" content="發展大型語言模型(LLM)關鍵步驟-資料收集" />
+<meta property="og:description" content="發展大型語言模型(LLM)關鍵步驟-資料收集" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://allenchen1113official.github.io/posts/7-key-steps-in-developing-llm-data-collection/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-11-06T18:42:04+08:00" />
+<meta property="article:modified_time" content="2023-11-06T18:42:04+08:00" />
+
+
+
+
+<link rel="canonical" href="https://allenchen1113official.github.io/posts/7-key-steps-in-developing-llm-data-collection/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.0669b62fc2c181a12a4ba10be9984e385c9a5e83dc7cb7ae3759ad0b98d7e8b2.css" integrity="sha256-Bmm2L8LBgaEqS6EL6ZhOOFyaXoPcfLeuN1mtC5jX6LI=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.f6534b0b446b75d9b6ad77a97d43ede2ddaeff1b6e2361fb7198d6f8fcb7f83f.css" integrity="sha256-9lNLC0Rrddm2rXepfUPt4t2u/xtuI2H7cZjW&#43;Py3&#43;D8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.111.3">
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-dark">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      AllenChen
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://linktr.ee/allenchen1113.official">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://allenchen1113official.github.io/posts/7-key-steps-in-developing-llm-data-collection/">
+              發展大型語言模型(LLM)關鍵步驟-資料收集
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-11-06T18:42:04&#43;08:00">
+                November 6, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              One-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa fa-user" aria-hidden="true"></i>
+    <a href="/authors/allenchen/">AllenChen</a></div>
+
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/llm/">LLM</a>
+      <span class="separator">•</span>
+    <a href="/categories/%E8%B3%87%E6%96%99%E6%94%B6%E9%9B%86/">資料收集</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/llm/">LLM</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E8%B3%87%E6%96%99%E6%94%B6%E9%9B%86/">資料收集</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p><img src="/images/post/A-rabbit-with-big-blue-eyes-talking-another-rabbit-and-use-a-chatbot-and-collect-the-data-with-Van-Gogh-style.jpeg" alt="image"></p>
+<p>在發展一個大型語言模型（LLM）時，資料收集是關鍵的步驟之一。以下是一些資料收集的重要步驟：</p>
+<ol>
+<li>定義模型的目標：在開始資料收集之前，首先要明確模型的目標和領域。例如，模型可能是用來生成新聞文章、回答問題、翻譯語言等。</li>
+<li>確定資料需求：根據模型的目標，確定需要哪些型別的資料。例如，如果模型是用於生成新聞文章，那麼需要收集新聞相關的文字資料。</li>
+<li>收集資料：根據資料需求，開始收集相關的資料。可以透過以下途徑收集資料：
+<ul>
+<li>網路爬蟲：使用網路爬蟲程式抓取網頁上的文字資料。</li>
+<li>資料庫查詢：從現有的資料庫中檢索需要的資料。</li>
+<li>人工標註：如果需要特定型別的標註資料（如問答對），可以透過人工標註的方式獲取。</li>
+</ul>
+</li>
+<li>資料清理和預處理：收集到的資料可能包含噪聲和不必要的資訊，需要進行清理和預處理。這包括去除HTML標籤、標點符號，處理大小寫等。</li>
+<li>語料庫建立：將清理和預處理後的資料建立成語料庫。語料庫應該包含在訓練模型時所需的文字資料，並且具有足夠的覆蓋範圍和多樣性。</li>
+<li>資料探索和分析：對資料進行探索和分析，以瞭解資料的特徵、結構和分佈。這可以幫助你更好地理解資料並做出適當的處理。
+以上是發展大型語言模型時資料收集的關鍵步驟。在繼續進行後續工作前，確保你有足夠的高品質資料來訓練模型。</li>
+</ol>
+<!-- raw HTML omitted -->
+
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "allenchen1113official" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2023
+     Allen Chen 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
