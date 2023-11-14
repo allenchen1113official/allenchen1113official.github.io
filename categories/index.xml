@@ -6,13 +6,22 @@
     <description>Recent content in Categories on AllenChen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 10 Nov 2023 20:47:36 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Nov 2023 19:26:40 +0800</lastBuildDate><atom:link href="https://allenchen1113official.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LLM</title>
       <link>https://allenchen1113official.github.io/categories/llm/</link>
-      <pubDate>Fri, 10 Nov 2023 20:47:36 +0800</pubDate>
+      <pubDate>Sat, 11 Nov 2023 19:26:40 +0800</pubDate>
       
       <guid>https://allenchen1113official.github.io/categories/llm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>應用和部署</title>
+      <link>https://allenchen1113official.github.io/categories/%E6%87%89%E7%94%A8%E5%92%8C%E9%83%A8%E7%BD%B2/</link>
+      <pubDate>Sat, 11 Nov 2023 19:26:40 +0800</pubDate>
+      
+      <guid>https://allenchen1113official.github.io/categories/%E6%87%89%E7%94%A8%E5%92%8C%E9%83%A8%E7%BD%B2/</guid>
       <description></description>
     </item>
     
